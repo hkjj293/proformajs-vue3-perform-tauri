@@ -1,9 +1,9 @@
 {
-  "name": "proformajs-vue3-standalone-electron",
+  "name": "proformajs-vue3-perform-tauri",
   "version": "0.0.0",
-  "description": "A proformajs-vue3-standalone-electron",
+  "description": "A proformajs-vue3-perform-tauri",
   "private": true,
-  "main": "index.js",
+  "main": "src/main.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -12,16 +12,17 @@
     "test:e2e": "start-server-and-test preview http://localhost:4173 'cypress run --e2e'",
     "test:e2e:dev": "start-server-and-test 'vite dev --port 4173' http://localhost:4173 'cypress open --e2e'",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
-    "format": "prettier --write src/"
+    "format": "prettier --write src/",
+    "tauri": "tauri"
   },
   "dependencies": {
-    
     "@openclinical/proformajs-vue3-perform": "^0.0.6",
     "pinia": "^2.0.35",
     "vue": "^3.2.47"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.2.0",
+    "@tauri-apps/cli": "^1.3.1",
     "@vitejs/plugin-vue": "^4.2.1",
     "@vue/eslint-config-prettier": "^7.1.0",
     "@vue/test-utils": "^2.3.2",
