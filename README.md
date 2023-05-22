@@ -24,14 +24,14 @@ This template should help get you started building standalone PRO<i>formajs</i>-
 npm install
 ```
 
-
+<br/>
 ## Debug standalone application using [Tauri](https://tauri.app/)
 
 ```sh
 npm run tauri dev
 ```
 
-
+<br/>
 ## Package and distribution using [Electron Forge](https://www.electronforge.io/)
 
 ### Create bundles using command:
