@@ -42,4 +42,5 @@ npm run tauri build
 npm run tauri build --target i686-pc-windows-msvc
 ```
 
-### The executables should be output to `src-tauri/target/release` while bundles are in `src-tauri/target/release/bundle`
+### Output files
+The executables should be output to `src-tauri/target/release` while bundles are in `src-tauri/target/release/bundle`
