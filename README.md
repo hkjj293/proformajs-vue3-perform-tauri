@@ -12,17 +12,17 @@ This template should help get you started building standalone PRO<i>formajs</i>-
 
 ## Project Setup
 
-1. Install Rust and Cargo
-    For windows:
-    Download rustup installer via this [link](https://win.rustup.rs/)
+Install Rust and Cargo
 
-    For Liux & MacOS:
-    Use the following command:
-    ```sh
-    curl https://sh.rustup.rs -sSf | sh
-    ```
+  - For windows:</br>
+       Download and run [rustup-init.exe](https://win.rustup.rs/)
 
-2.
+  - For Linux & MacOS:<br/>
+       Use the following command:
+       ```sh
+       curl https://sh.rustup.rs -sSf | sh
+       ```
+Install Dependencies
 ```sh
 npm install
 npm run build
