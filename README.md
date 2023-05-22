@@ -11,16 +11,16 @@ This template should help get you started building standalone PRO<i>formajs</i>-
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
 ## Project Setup
+
 1. Install Rust and Cargo
+    For windows:
+    Download rustup installer via this [link](https://win.rustup.rs/)
 
-  For windows:
-  Download rustup installer via this [link](https://win.rustup.rs/)
-
-  For Liux & MacOS:
-  Use the following command:
-  ```sh
-  curl https://sh.rustup.rs -sSf | sh
-  ```
+    For Liux & MacOS:
+    Use the following command:
+    ```sh
+    curl https://sh.rustup.rs -sSf | sh
+    ```
 
 2.
 ```sh
