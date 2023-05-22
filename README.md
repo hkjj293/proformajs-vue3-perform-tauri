@@ -16,7 +16,6 @@ This template should help get you started building standalone PRO<i>formajs</i>-
        Download and run [rustup-init.exe](https://win.rustup.rs/)
 
   - For Linux & MacOS:<br/>
-       Use the following command:
        ```sh
        curl https://sh.rustup.rs -sSf | sh
        ```
