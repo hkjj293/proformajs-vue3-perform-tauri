@@ -1,18 +1,16 @@
 # proformajs-vue3-perform-tauri
 
+A template for desktop standalone PRO<i>formajs</i>-Vue3 project [Tauri](https://tauri.app/) + [Vite]() + [Vue3]()
+
 The original component work for this project can be found at https://gitlab.com/openclinical/proformajs-vue3
 
 ---
 
-This template should help get you started building standalone PRO<i>formajs</i>-Vue3 project.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+This template should help get you started building standalone PRO<i>formajs</i>-Vue3 project with [Tauri](https://tauri.app/).
 
 ## Project Setup
 
-Install Rust and Cargo
+### Install Rust and Cargo
 
   - For windows:</br>
        Download and run [rustup-init.exe](https://win.rustup.rs/)
@@ -22,24 +20,27 @@ Install Rust and Cargo
        ```sh
        curl https://sh.rustup.rs -sSf | sh
        ```
-Install Dependencies
+### Install dependencies
 ```sh
 npm install
-npm run build
 ```
 
-## Debug standalone application using [Electron](https://www.electronjs.org/)
+## Debug standalone application using [Tauri](https://tauri.app/)
 
 ```sh
-npm start
+npm run tauri dev
 ```
 
 ## Package and distribution using [Electron Forge](https://www.electronforge.io/)
 
-1. Create distrubtion using make command.
-
+### Create bundles using command:
 ```sh
-npm run make
+npm run tauri build
 ```
 
-2. The executables should be output to `out` folder under the root folder of the project.
+### Or with specific target platform: (e.g.)
+```sh
+npm run tauri build --target i686-pc-windows-msvc
+```
+
+### The executables should be output to `src-tauri/target/release` while bundles are in `src-tauri/target/release/bundle`
