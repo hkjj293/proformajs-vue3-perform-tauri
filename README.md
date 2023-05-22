@@ -25,6 +25,7 @@ npm install
 ```
 
 <br/>
+
 ## Debug standalone application using [Tauri](https://tauri.app/)
 
 ```sh
@@ -32,6 +33,7 @@ npm run tauri dev
 ```
 
 <br/>
+
 ## Package and distribution using [Electron Forge](https://www.electronforge.io/)
 
 ### Create bundles using command:
