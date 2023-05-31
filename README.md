@@ -10,16 +10,10 @@ This template should help get you started building standalone PRO<i>formajs</i>-
 
 ## Project Setup
 
-### Install Rust and Cargo
-
-  - For windows:</br>
-       Download and run [rustup-init.exe](https://win.rustup.rs/)
-
-  - For Linux & MacOS:<br/>
-       ```sh
-       curl https://sh.rustup.rs -sSf | sh
-       ```
-### Install dependencies
+###  Install system dependencies
+- Please follow this [instruction](https://tauri.app/v1/guides/getting-started/prerequisites/) for installing dependencies.
+ 
+###  Install development dependencies
 ```sh
 npm install
 ```
